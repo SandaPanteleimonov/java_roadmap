@@ -1,4 +1,4 @@
-package Week1;
+/*package Week1;
 
 public class Student {
     // Set private variables, which will be accessible only within this class.
@@ -16,4 +16,4 @@ public class Student {
     public void setName(String newName) {
         this.name = newName;
     }
-}
+}*/
