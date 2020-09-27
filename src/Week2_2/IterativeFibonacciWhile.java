@@ -1,4 +1,4 @@
-package Week2_2;
+/*package Week2_2;
 
 import java.util.Scanner;
 
@@ -12,6 +12,7 @@ public class IterativeFibonacciWhile {
          Also is necessary to declare variables for first numbers of series.
          The first two Fibonacci numbers are 0 and 1; each remaining number is the sum of the previous two.
          */
+/*
         int maxNumber;
         int previousNumber = 0;
         int nextNumber = 1;
@@ -34,4 +35,4 @@ public class IterativeFibonacciWhile {
         }
     }
 }
-
+*/
