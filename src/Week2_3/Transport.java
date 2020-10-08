@@ -1,6 +1,70 @@
-/*
+
 package Week2_3;
 
+public class Transport {
+    private int numberPerson;
+    private int volumeFuel;
+    private int consum;
+
+    public Transport(int numberPerson, int volumeFuel, int consum) {
+        this.numberPerson = numberPerson;
+        this.volumeFuel = volumeFuel;
+        this.consum = consum;
+    }
+
+    public int getNumberPerson() {
+        return numberPerson;
+    }
+
+    public void setNumberPerson(int numberPerson) {
+        this.numberPerson = numberPerson;
+    }
+
+    public int getVolumeFuel() {
+        return volumeFuel;
+    }
+
+    public void setVolumeFuel(int volumeFuel) {
+        this.volumeFuel = volumeFuel;
+    }
+
+    public int getConsum() {
+        return consum;
+    }
+
+    public void setConsum(int consum) {
+        this.consum = consum;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 public class Transport {
     /*Define variables;
     capacityPerson - how many person can be transported;

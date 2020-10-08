@@ -7,12 +7,12 @@ class StringPalindrome
     public static void main(String args[])
     {
         // Initialize strings
-        String string, string1, reverse = "";
+        String reverse = "";
         Scanner in = new Scanner(System.in);
         System.out.println("Enter first string:");
-        string = in.nextLine();
+        String string = in.nextLine();
         System.out.println("Enter second string:");
-        string1 = in.nextLine();
+        String string1 = in.nextLine();
 
 
         //Reverse the second string

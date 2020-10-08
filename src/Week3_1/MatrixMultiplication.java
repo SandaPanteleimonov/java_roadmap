@@ -43,7 +43,7 @@ public class MatrixMultiplication {
             for (i = 0; i < row1; i++) {
                 for (j = 0; j < column2; j++) {
                     for (k = 0; k < row2; k++)
-                        sum = sum + first_matrix[i][k]*second_matrix[k][j];
+                        sum+=first_matrix[i][k]*second_matrix[k][j];
 
                     multiplication[i][j] = sum;
                     sum = 0;

@@ -17,7 +17,7 @@ public class SortArray
         }
 
         //First sorting - descending order
-        long start1 =System.currentTimeMillis();
+        //long start1 =System.currentTimeMillis();
 
         System.out.println("Descending Order:");
         for (int i = 0; i < n; i++) {
@@ -35,11 +35,11 @@ public class SortArray
         }
         System.out.println(array[n - 1]);
 
-        long end1 =System.currentTimeMillis();
-        System.out.println(end1-start1);
+        //long end1 =System.currentTimeMillis();
+        //System.out.println(end1-start1);
 
         //Second sorting - ascending order
-        long start2 =System.currentTimeMillis();
+        //long start2 =System.currentTimeMillis();
 
         System.out.println("Ascending Order:");
         for (int i = 0; i < n; i++) {
@@ -56,8 +56,8 @@ public class SortArray
         }
         System.out.println(array[n - 1]);
 
-        long end2 =System.currentTimeMillis();
-        System.out.println(end2-start2);
+        //long end2 =System.currentTimeMillis();
+        //System.out.println(end2-start2);
     }
 }
 
