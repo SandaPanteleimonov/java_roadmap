@@ -1,4 +1,4 @@
-/*package Week1;
+package Week1;
 
 import java.util.Scanner;
 
@@ -32,6 +32,7 @@ public class EldestUser {
         System.out.print("Your marriage status (Type true for 'married' or false for 'not married': ");
         isMarriedUserThree = keyboard.nextBoolean();
 
+
         if ((UserOneAge > UserTwoAge) && (UserOneAge > UserThreeAge)) {
             if (!isMarriedUserOne) {
                 System.out.println("Congrats, " + UserOneName + ", you are the Eldest Person, which is not married!");
@@ -43,6 +44,6 @@ public class EldestUser {
                 System.out.println("Congrats, " + UserThreeName + ", you are the Eldest Person, which is not married!");
     }
 }
-*/
+
 
 
