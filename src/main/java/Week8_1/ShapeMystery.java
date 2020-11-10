@@ -2,7 +2,7 @@ package Week8_1;
 
 import java.util.Scanner;
 
-public abstract class Result {
+public abstract class ShapeMystery {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Choose number of shape: square (1), rhombus (2), circle (3) or triangle (4). ");
